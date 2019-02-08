@@ -1,5 +1,42 @@
 "Resource/UI/HudAmmoWeapons.res"
 {
+	"AmmoBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"AmmoBG"
+		"xpos"			"5"
+		"ypos"			"4"
+		"zpos"			"-1"
+		"wide"			"90"
+		"tall"			"50"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"0 0 0 150"
+	}
+	"TeamIndicator"
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"		"TeamIndicator"
+		"xpos"			"5"
+		"ypos"			"49"
+		"zpos"			"2"
+		"wide"			"90"
+		"tall"			"5"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible" 		"1"
+		"enabled" 		"1"
+		"image"			"../hud/color_panel_brown"
+		"scaleImage"	"1"
+		"teambg_1"		"../hud/color_panel_brown"
+		"teambg_2"		"../hud/color_panel_red"
+		"teambg_3"		"../hud/color_panel_blu"
+		
+		"src_corner_height"		"40"
+		"src_corner_width"		"40"
+		"draw_corner_height"	"0"
+		"draw_corner_width"		"0"
+	}
 	"HudWeaponAmmoBG"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -48,7 +85,7 @@
 		"textAlignment"	"east"	
 		"labelText"		"%Ammo%"
 		
-	}		
+	}
 	"AmmoInClipShadow"
 	{
 		"ControlName"	"CExLabel"
@@ -106,11 +143,11 @@
 		"fieldName"		"AmmoNoClip"
 		"font"			"LemonMilk48"
 		"fgcolor"		"255 255 255 255"
-		"xpos"			"10"
-		"ypos"			"6"
+		"xpos"			"5"
+		"ypos"			"0"
 		"zpos"			"5"
-		"wide"			"84"
-		"tall"			"40"
+		"wide"			"90"
+		"tall"			"50"
 		"visible"		"0"
 		"enabled"		"1"
 		"textAlignment"	"center"		
@@ -123,15 +160,16 @@
 		"fieldName"		"AmmoNoClipShadow"
 		"font"			"LemonMilk48"
 		"fgcolor"		"0 0 0 255"
-		"xpos"			"12"	
-		"ypos"			"8"
-		"zpos"			"5"
-		"wide"			"84"
-		"tall"			"40"
+		"xpos"			"7"
+		"ypos"			"2"
+		"zpos"			"2"
+		"wide"			"90"
+		"tall"			"50"
 		"visible"		"0"
 		"enabled"		"1"
 		"textAlignment"	"center"		
 		"labelText"		"%Ammo%"
 		
-	}									
+	}
+	
 }
